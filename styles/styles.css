@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  text-align: center;
+}
+
+.col-md-3 {
+  text-align: center;
+  padding: 10px;
+}
