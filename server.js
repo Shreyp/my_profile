@@ -6,6 +6,7 @@ var PORT = process.env.PORT || 7080;
 app.use('/js', express.static('assets/js'));
 app.use('/css', express.static('assets/css'));
 app.use('/images', express.static('assets/images'));
+app.use('/fonts', express.static('assets/fonts'));
 
 app.get('/', function(req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
